@@ -8,12 +8,11 @@
 module.exports = {
 
 
-    connection:["mysql"],
+    // connection:["mysql"],
     // migrate:'alter',
 
 
     attributes: {
-
     	ren_guid: { type: 'STRING' },
         staff_account : { type: 'STRING' },
         account_name : { type: 'STRING' },
