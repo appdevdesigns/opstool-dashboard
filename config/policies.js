@@ -11,7 +11,7 @@
  * http://sailsjs.org/#documentation
  */
 
-var serviceStack = [ 'sessionAuth', 'initUser', 'initSession' ];
+var serviceStack = ADCore.policy.serviceStack();
 
 module.exports = {
 
